@@ -8,4 +8,6 @@ The interactive version of this code can be found on my Kaggle account though wh
 
 Do enjoy!
 
-![PythonBelovedGIF](https://user-images.githubusercontent.com/92489108/159089208-f1f8ebb6-2930-4982-9815-d2e466641ee4.gif)
+<p align="center">
+  <img width="150" src="https://user-images.githubusercontent.com/92489108/159089208-f1f8ebb6-2930-4982-9815-d2e466641ee4.gif">
+</p>
