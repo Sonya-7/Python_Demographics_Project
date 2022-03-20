@@ -1,3 +1,7 @@
+  from datetime import date        
+  
+  
+            # Project Title
 print("Sonya's Demographics Project")
 print("\t\tWelcome!\n")
 
@@ -29,9 +33,7 @@ while name_min < name_max:
         break
 print('Welcome! ' + first_name + ', ' + last_name, "\n")
 
-                # this year
-from datetime import date
-
+                # Current year
 this_year = date.today().year
 today = date.today()
 print(f'Today is {today}', "\n")
@@ -48,6 +50,7 @@ except Exception:
         print(age)
         break
     
+    
 reference_list = {
     "0": "zero",
     "1": "one",
@@ -60,6 +63,8 @@ reference_list = {
     "8": "eight",
     "9": "nine"
 }
+
+                # Number for calculating projected age
 number = input('What is your favorite #? ')
 for character in number:
     output1 = ""
@@ -68,7 +73,7 @@ for character in number:
 new_age = int(age) + int(number)
 print(f'In {output1}years you will be {new_age}\n')
 
-                # Emoji call
+                # Emoji call for favorite emoji
 def emoji_converter(message):
     words = message.split(' ')
     emoji = {
@@ -80,6 +85,7 @@ def emoji_converter(message):
         ":(": "\U0001F622",
         "*)": "\U0001F609"
     }
+    
     output2 = ""
     for word in words:
         output2 += emoji.get(word, word) + " "
@@ -89,7 +95,7 @@ def emoji_converter(message):
 text = input("What is your favorite emoji? ")
 print(emoji_converter(text), "\n")
 
-                # BMI calculation
+                # Body Mass Iindex calculation
 weight = int(input("What is your current weight: "))
 unit = input('(L)bs or (K)g: ')
 
@@ -129,10 +135,10 @@ elif bmi >= 30:
                 # favorite color
 fav_color = input('What is your favorite color? \n')
 
+
                 # Summary
 print(f'{last_name}, {first_name} is {age} and has a BMI of {bmi} as at {this_year}. {first_name[0]}{last_name[0]} '
       f'likes the color {fav_color}, and the emoji {emoji_converter(text)}.')
-
 
 
                 # thank you email formatting
@@ -143,3 +149,5 @@ email = '''
         Support Team
 '''
 print(email)
+
+# I am so excited to have this created and giving all the correct outputs. New skill..... Who dis. 😂
