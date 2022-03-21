@@ -4,7 +4,7 @@ This project was creted to collect demographic data from students attending an e
 
 The code is all Python and uses the DATETIME package. I also uses lists, touples, dictionaries, if statements, for loops, while loop...
 
-The interactive version of this code can be found on my Kaggle account though which this repository was created.
+The interactive version of this code can be found on my [Kaggle account](https://www.kaggle.com/code/sonyalawrence/first-python-project) through which this repository was created.
 
 Do enjoy!
 
