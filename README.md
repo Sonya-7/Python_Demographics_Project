@@ -1,8 +1,8 @@
 # Python_Demographics_Project
 
-This project was creted to collect demographic data from students attending an exercise convention.
+This project was created to collect demographic data from students attending an exercise convention.
 
-The code is all Python and uses the DATETIME package. I also uses lists, touples, dictionaries, if statements, for loops, while loop...
+The code is Python Programing Language. It uses the DATETIME package. It also uses lists, touples, dictionaries, if statements, for loops, while loop...
 
 The interactive version of this code can be found on my [Kaggle account](https://www.kaggle.com/code/sonyalawrence/first-python-project) through which this repository was created.
 
